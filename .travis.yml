@@ -33,4 +33,4 @@ android:
  - sys-img-armeabi-v7a-addon-google_apis-google-$EMULATOR_API_LEVEL
 
 script:
-- "./gradlew clean build connectedCheck -PdisablePreDex --stacktrace"
+- ./gradlew build connectedCheck
